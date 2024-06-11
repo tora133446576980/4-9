@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+header {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: calc(100% - 57px);
+    margin: 0 auto;
+}
+
+.ong {
+    gap: 14px;
+    display: flex;
+    align-items: center;
+}
+
+select {
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+button {
+    background-color: #F1A900;
+    color: black;
+    font-size: 20px;
+    font-weight: 700px;
+    border: none;
+    padding: 26px 21px 24px 49px;
+}
+
+.photo {
+    background-image: url(_);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.q {
+    display: flex;
+    justify-content: center;
+    gap: 101px;
+    background-color: #222222;
+    padding: 15px;
+}
+
+ul {
+    display: flex;
+    gap: 101px;
+}
+
+ul li a {
+    color: white;
+    font-size: 16px;
+    font-weight: 700px;
+}
+
+.a {
+    border: none;
+    background-color: #222222;
+    color: white;
+}
+
+body {
+    background-image: url(https://www.chromethemer.com/download/hd-wallpapers/pubg-3840x2160.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.p {
+    width: 235px;
+    height: 73px;
+    background-color: #F1A900;
+    font-weight: 700px;
+    font-size: 40px;
+}
+
+.c{
+    width: 235px;
+    height: 73px;
+    background-color: black;
+    color: white;
+    font-weight: 700px;
+    font-size: 40px;
+}
+
+.pc{
+    display: flex;
+    justify-content: center;
+    margin-top: 349px;
+    gap: 64px;
+}
+
+.erangle{
+    width: 966px;
+    background-color: #F1A90054;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 31px;
+}
+
+p{
+    font-weight: 700px;
+    font-size: 64px;
+    color: white;
+}
+
+footer{
+    background-color: black;
+   
+}
+
+.t{
+     display: flex;
+    justify-content: space-between;
+    gap: 52px;
+}
